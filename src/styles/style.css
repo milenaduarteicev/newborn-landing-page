@@ -1,9 +1,34 @@
 @font-face {
-    font-family: 'Century Gothic';
-    src: url('/src/fonte/CenturyGothic.ttf') format('truetype');
+    font-family: 'Century Normal';
+    src: url('/src/fonte/CENSCBK.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Century Bold';
+    src: url('/src/fonte/SCHLBKB.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Italico';
+    src: url('/src/fonte/SCHLBKI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Century Bold Italico';
+    src: url('/src/fonte/SCHLBKBI.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'Century Normal', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Century Gothic', Helvetica, sans-serif;
+    background-color: #1f1c1c;
 }
