@@ -1,15 +1,17 @@
 header {
     width: 100%;
-    padding: 28px 8%;
+    height: 83px;
+    padding: 14px 8%;
     position: fixed;
     top: 0;
     left: 0;
-    transition: 0.5s;
+    transition: 0.7s;
 }
 
 header.rolagem {
-    background-color: #ffffff21;
-    padding: 14px 8%;
+    background-color: #4e494911;
+    padding: 7px 8%;
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.075);
 }
 
 header.rolagem a {
@@ -24,8 +26,8 @@ header.rolagem a {
 }
 
 #menu_logo {
-    width: 185px;
-    height: 103px;
+    width: 128px;
+    height: 71px;
     flex-shrink: 0;
 }
 
@@ -39,6 +41,7 @@ header.rolagem a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 200;
+    font-size: 20px;
 }
 
 .item_navegacao.ativo a {
@@ -58,6 +61,7 @@ header.rolagem a {
     #menu_navegacao {
         display: none;
     }
+
     #botao_mobile {
         display: block;
         border: none;
@@ -66,6 +70,7 @@ header.rolagem a {
         cursor: pointer;
         color: #ffffff;
     }
+
     #menu_mobile.ativo {
         display: flex;
         flex-direction: column;
@@ -85,13 +90,12 @@ header.rolagem a {
     }
 }
 
-.banner {
+#banner_principal {
     height: 100vh;
     background-image: url(/src/imagens/fundos/fundo_capa_banner.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;

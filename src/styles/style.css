@@ -4,24 +4,28 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Century Bold';
     src: url('/src/fonte/SCHLBKB.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Century Italico';
     src: url('/src/fonte/SCHLBKI.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Century Bold Italico';
     src: url('/src/fonte/SCHLBKBI.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Family Time';
     src: url('/src/fonte/family-time.otf') format('opentype');
@@ -31,9 +35,9 @@
 
 * {
     font-family: 'Century Normal', Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    color: #FFF;
+    font-style: normal;
+    line-height: normal;
 }
 
 body {
