@@ -1,6 +1,19 @@
 header {
     width: 100%;
     padding: 28px 8%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header.rolagem {
+    background-color: #ffffff21;
+    padding: 14px 8%;
+}
+
+header.rolagem a {
+    color: #5b4c6421;
 }
 
 #menu {
@@ -51,10 +64,35 @@ header {
         background-color: transparent;
         font-size: 1.5rem;
         cursor: pointer;
+        color: #ffffff;
     }
-    #menu_mobile.active {
+    #menu_mobile.ativo {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    #menu_mobile_navegacao {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin: 24px 0px;
+    }
+
+    #menu_mobile_navegacao .item_navegacao {
+        list-style: none;
+        text-align: center;
+    }
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(/src/imagens/fundos/fundo_capa_banner.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
